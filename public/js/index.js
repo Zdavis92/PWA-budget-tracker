@@ -130,7 +130,7 @@ function sendTransaction(isAdding) {
     }
     else {
       // clear form
-      alert('Transaction added!')
+      alert('Transaction added!');
       nameEl.value = "";
       amountEl.value = "";
     }
